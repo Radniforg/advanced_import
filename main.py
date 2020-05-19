@@ -1,10 +1,10 @@
 # main.py
 
-import application/people
-from datetime import date
-from application/salary.py import calculate_salary
+from application import people
+from datetime import datetime
+from application import salary
 
-if __name__ = '__main__':
-	print(date())
+if __name__ == '__main__':
+	print(datetime.date(datetime.now()))
 	print(people.get_employees())
-	print(calculate_salary)
+	print(salary.calculate_salary())
